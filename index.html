@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Finder</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon-16x16.png" type="image/x-icon" />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo">GitHub Finder</h1>
+      </div>
+    </nav>
+
+    <!-- Search container card -->
+    <div class="container card searchContainer">
+      <div class="card-body">
+        <h1>Search GitHub Users</h1>
+        <p class="lead">
+          Enter a username to find a user profile and repositories.
+        </p>
+        <input type="text" id="search" placeholder="GitHub Username..." />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="profile"></div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>GitHub Finder &copy;</p>
+    </footer>
+
+    <!-- scripts -->
+    <script src="/scripts/ui.js"></script>
+    <script src="/scripts/github.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
